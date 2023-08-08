@@ -1,0 +1,54 @@
+
+
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: white;
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+	font-size: 60px;
+	font-family: arial rounded mt;
+	cursor: pointer;
+  color: #D3C36D;
+
+}
+
+h1 span{
+	display: inline-flex;
+	color: #D3C36D;
+
+}
+
+h1 span:nth-child(even){
+	overflow: hidden;
+	transition: linear 0.7s;
+	color: #06142B;
+	border-bottom: 8px solid #D3C36D;
+	letter-spacing: -1em;
+}
+
+h1:hover span:nth-child(even){
+	letter-spacing: 0;
+	cursor: pointer;
+}
+
+h1:hover span:nth-child(2){
+	transition-delay: 0s;
+
+}
+
+h1:hover span:nth-child(4){
+	transition-delay: 0.5s;
+
+}
+
+h1:hover span:nth-child(6){
+	transition-delay: 1s;
+}
